@@ -5,7 +5,7 @@ class Service extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header title="service page" />
         this is service
       </div>
     );
