@@ -6,7 +6,10 @@ class Service extends React.Component {
     return (
       <div>
         <Header title="service page" />
-        <Content myTitle="this is Service Page from props" />
+        <Content
+          myTitle="this is Service Page from props"
+          propsObject={{ name: "KHAN", age: 20 }}
+        />
         this is service
       </div>
     );

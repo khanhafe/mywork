@@ -6,7 +6,10 @@ class Home extends React.Component {
     return (
       <div>
         <Header title="Home page" />
-        <Content myTitle="this is Home Page from props" />
+        <Content
+          myTitle="this is Home Page from props"
+          propsObject={{ name: "hafeez", age: 10 }}
+        />
         this is home
       </div>
     );
